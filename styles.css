@@ -1,0 +1,390 @@
+@keyframes glow {
+    0% {
+      background-image: radial-gradient(circle, #ff0000 10%, transparent 10%),
+                        radial-gradient(circle, #ff0000 10%, transparent 10%);
+    }
+    14.3% {
+      background-image: radial-gradient(circle, #ff6600 10%, transparent 10%),
+                        radial-gradient(circle, #ff6600 10%, transparent 10%);
+    }
+    28.6% {
+      background-image: radial-gradient(circle, #ffcc00 10%, transparent 10%),
+                        radial-gradient(circle, #ffcc00 10%, transparent 10%);
+    }
+    42.9% {
+      background-image: radial-gradient(circle, #00ff00 10%, transparent 10%),
+                        radial-gradient(circle, #00ff00 10%, transparent 10%);
+    }
+    57.2% {
+      background-image: radial-gradient(circle, #0099ff 10%, transparent 10%),
+                        radial-gradient(circle, #0099ff 10%, transparent 10%);
+    }
+    71.5% {
+      background-image: radial-gradient(circle, #6600ff 10%, transparent 10%),
+                        radial-gradient(circle, #6600ff 10%, transparent 10%);
+    }
+    85.8% {
+      background-image: radial-gradient(circle, #ff00ff 10%, transparent 10%),
+                        radial-gradient(circle, #ff00ff 10%, transparent 10%);
+    }
+    100% {
+      background-image: radial-gradient(circle, #ff0000 10%, transparent 10%),
+                        radial-gradient(circle, #ff0000 10%, transparent 10%);
+    }
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 100%); 
+    background-image: radial-gradient(circle, #ff0000 10%, transparent 10%),
+                      radial-gradient(circle, #ff0000 10%, transparent 10%);
+    background-size: 20px 20px; 
+    animation: glow 3s infinite; 
+  }
+  
+  
+  .navbar {
+    background-color: hsl(0, 0%, 0%); 
+    padding: 20px;
+    text-align: center;
+    height: 100px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  .navbar-text {
+    font-family: 'Jokerman', cursive; 
+    font-size: 2em;
+    color: hsl(0, 0%, 100%); 
+    margin: 0;
+    text-align: center;
+    margin-left: 300px;
+  }
+
+  
+  
+  .sidebar {
+    background-color: #333;
+    color: white;
+    width: 160px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 24px; 
+    color: #333; 
+    text-align: center; 
+    margin-bottom: 20px; 
+    
+  }
+
+  .logo img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+    
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin-bottom: 10px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Ravie, fantasy;
+    background-image: linear-gradient(to right, #00FFFF, #00FF00); 
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    transition: color 0.3s ease;/
+}
+
+.nav-links a:hover {
+    color: #ff0000; 
+}
+  .about-section {
+    text-align: center; 
+    margin-bottom: 50px; 
+    margin-top: 200px;
+}
+
+.about-section h2 {
+    font-size: 2em;
+    color: Black; 
+    margin-left: 300px;
+    text-align: center;
+}
+
+  .cd-case {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 500px;
+}
+
+.cover-image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cover-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+.tracklist {
+    margin-top: 20px;
+}
+
+.tracklist h2 {
+    font-size: 18px;
+    justify-content: right;
+    text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 15px #00ff00, 0 0 20px #ff00ff; /* Glowing effect */
+}
+
+.tracklist ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tracklist li {
+    margin-bottom: 5px;
+    color: white;
+    font-family: 'Chronic Deal', cursive;
+    background-color: black;
+}
+
+.liner-notes {
+    margin-top: 20px;
+}
+
+.liner-notes h2 {
+    font-size: 18px;
+    text-decoration: underline;
+    text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 15px #00ff00, 0 0 20px #ff00ff; /* Glowing effect */
+}
+
+.liner-notes p {
+    margin-bottom: 10px;
+    font-family: 'Chronic Deal', cursive;
+    color: white;
+    font-size: 1em;
+    background-color: #000000;
+    
+}
+  
+  
+  
+
+@keyframes neon {
+    0% {
+        color: #00ff00; 
+        text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+    }
+    50% {
+        color: #ff00ff; 
+        text-shadow: 0 0 5px #ff00ff, 0 0 15px #ff00ff, 0 0 25px #ff00ff;
+    }
+    100% {
+        color: #00ff00; 
+        text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+    }
+}
+
+.cd-case h2 {
+    font-size: 24px;
+    animation: neon 1.5s linear infinite alternate;
+}
+
+.progress-bar h2 {
+    font-size: 24px;
+    animation: neon 1.5s linear infinite alternate;
+}
+
+.panel h2 {
+    margin-top: 0;
+    color: white;
+  }
+
+.cd-case, .progress-bar,  .panel {
+    background-color: #000000; 
+    background-image: radial-gradient(circle, #00FFFF 10%, transparent 10%),
+                      radial-gradient(circle, #32CD32 10%, transparent 10%);
+    background-size: 20px 20px; 
+    padding: 20px;
+}
+
+.skills-progress {
+    font-size: 24px;
+    text-align: center;
+    margin-left: 300px;
+    padding-top: 100px;
+   
+  }
+  
+.progress-bar {
+    display: flex;
+    border: 2px ;
+    width: 600px;
+    margin-left: 500px;
+    background-color: black;
+    border-radius: 13px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .skill {
+    width: 300px; /* Width of the progress bars */
+    text-align: center;
+  }
+  
+  @keyframes neonName {
+    0% {
+        text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00; 
+    }
+    50% {
+        text-shadow: 0 0 5px #ff00ff, 0 0 15px #ff00ff, 0 0 25px #ff00ff; 
+    }
+    100% {
+        text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00; 
+    }
+}
+
+.name {
+    font-size: 20px; 
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    animation: neonName 1.5s linear infinite alternate; 
+}
+
+  
+  .bar {
+    height: 30px;
+    width:100px; 
+    background-color: #d3d3d3; 
+    border: 1px solid #000000; 
+    margin-top: 10px;
+    border-radius: 13px;
+    border: 2px solid cyan;
+  }
+  
+  .percentage {
+    margin-top: 5px;
+  color: white;
+  font-size: 1em;
+  padding-top: 2px;
+  text-align: left;
+  }
+  
+ 
+  .html {
+    width: 70%; 
+    background-color: #ff4500; 
+  }
+  
+ 
+  .css {
+    width: 60%; 
+    background-color: #4169e1; 
+  }
+
+  .python {
+    width: 50%; 
+    background-color: hsl(145, 73%, 57%); 
+  }
+
+  .javascript {
+    width: 30%; 
+    background-color: hsl(266, 73%, 57%); 
+  }
+  
+
+  .service-our {
+    font-size: 2em;
+    color: Black; 
+    margin-left: 200px;
+    text-align: center;
+}
+
+  
+  .container-box {
+    width: 100%;
+    padding-top: 200px;
+    max-width: 1200px; 
+    margin: 0 auto;
+  }
+  
+  .panel-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-left: 200px;
+  }
+  
+  .panel {
+    width: calc(33.33% - 20px); 
+    padding: 20px;
+    border: 2px solid black;
+    background-color: hsl(0, 0%, 0%);
+    box-sizing: border-box;
+    text-align: center; /* Center align content */
+  }
+  
+  .panel img {
+    max-width: 100%;
+    margin-bottom: 10px; /* Add spacing between image and text */
+  }
+  
+  .panel h2 {
+    margin-bottom: 5px;
+    color: white;
+    font-family: 'Chronic Deal', cursive;
+    background-color: black;
+    text-decoration: underline;
+    animation: neonName 1.5s linear infinite alternate;/* Glowing effect */
+}
+
+  .panel p{
+    margin-bottom: 5px;
+    color: white;
+    font-family: 'Chronic Deal', cursive;
+    background-color: black;
+}
+
+.container h1{
+  margin-top: 200px;
+  text-align: center;
+  margin-left: 200px;
+  font-size: 3em;
+}
+
+.container p{
+  text-align: center;
+  margin-left: 200px;
+  font-family: Jokerman, fantasy;
+  font-size: 2em;
+
+}
+
+.container img{
+  max-width: 100%;
+  margin-left: 610px;
+}
